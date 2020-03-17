@@ -1,0 +1,27 @@
+{
+  "name": "node-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manimit10/npmtest.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs"
+  ],
+  "author": "Mani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manimit10/npmtest/issues"
+  },
+  "homepage": "https://github.com/Manimit10/npmtest#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
