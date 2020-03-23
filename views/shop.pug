@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{docTitle}
+        link(rel="stylesheet", href="main.css")
+    body
+        header.main-header
+            nav.main-header__nav
+                ul
+                    li
+                        a(href="/") Shop
+                    li
+                        a(href="/admin/add-product") Add Product
+        main
+            div
+                    article
+                        header
+                            h1 #{product}
+                        div
+                            img(src="#", alt="#", srcset="")
+                        div
+                            h2 19.99€
+                            p A very interesting book about so many things
+                        div
+                            button(type="submit") Add to Cart
+
+
+
+
+

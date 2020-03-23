@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{pageTitle}
+    body
+        header.main-header
+            nav.main-header__nav
+                ul
+                    li
+                        a(href="/") Shop
+                    li
+                        a(href="/admin/add-product") Add Product
+        main
+            form(action="/admin/add-product", method="POST")
+                div
+                    label(for="title")
+                    input(type="text", name="title")#title
+                button(type="submit") Add Product
